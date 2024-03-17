@@ -3,12 +3,19 @@
   --secondary: #fff;
   --orange: orange;
 }
-
+@font-face {
+  font-family: font1;
+  src: url(./fonts/plain-light-webfont.ttf);
+}
+@font-face {
+  font-family: font2;
+  src: url(./fonts/silkserif-lightitalic-webfont.ttf);
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "plain light";
+  font-family: "font1";
   color: var(--secondary);
 }
 html,
@@ -69,21 +76,21 @@ body {
 
 @keyframes now {
   0% {
-    font-family: "plain light";
+    font-family: "font1";
     -webkit-text-stroke: 1px transparent;
     opacity: 1;
     color: white;
     font-weight: 100;
   }
   45% {
-    font-family: "plain light";
+    font-family: "font1";
     -webkit-text-stroke: 1px transparent;
     opacity: 0;
     color: white;
     font-weight: 100;
   }
   50% {
-    font-family: "silk serif";
+    font-family: "font2";
     -webkit-text-stroke: 1px var(--secondary);
     opacity: 1;
     color: transparent;
@@ -91,14 +98,14 @@ body {
   }
 
   95% {
-    font-family: "silk serif";
+    font-family: "font2";
     -webkit-text-stroke: 1px var(--secondary);
     opacity: 0;
     color: transparent;
     font-weight: 100;
   }
   100% {
-    font-family: "plain light";
+    font-family: "font1";
     -webkit-text-stroke: 1px transparent;
     opacity: 1;
     color: white;
@@ -117,14 +124,14 @@ body {
 
 #timer h4 {
   font-size: 4vw;
-  font-family: "silk serif";
+  font-family: "font2";
   font-weight: 100;
 }
 #timer h5 {
   font-size: 4vw;
   font-weight: 100;
 
-  font-family: "silk serif";
+  font-family: "font2";
 }
 
 #page1 {
@@ -335,7 +342,7 @@ body {
 }
 #top-1 h3 {
   font-size: 3vw;
-  font-family: "silk serif";
+  font-family: "font2";
   font-weight: 100;
 }
 #top-2 {
@@ -629,7 +636,7 @@ body {
   font-weight: 100;
 }
 #page4 #project h4 span {
-  font-family: silk serif;
+  font-family: font2;
 }
 #page4 #project:hover {
   transform: scale(0.9);
@@ -668,7 +675,7 @@ body {
   font-weight: 500;
 }
 #wrapper-left h1 {
-  font-family: silk serif;
+  font-family: font2;
   font-size: 3.2vw;
   font-weight: 100;
 }
@@ -805,7 +812,7 @@ body {
   -webkit-text-stroke: 2px var(--secondary);
   font-weight: 100;
   color: transparent;
-  font-family: "silk serif";
+  font-family: "font2";
   display: inline-block;
   margin-right: 2vw;
   margin-left: 2vw;
@@ -831,7 +838,7 @@ body {
   -webkit-text-stroke: 2px var(--secondary);
   font-weight: 100;
   color: transparent;
-  font-family: "silk serif";
+  font-family: "font2";
   display: inline-block;
   margin-right: 2vw;
   margin-left: 2vw;
@@ -864,7 +871,7 @@ body {
   content: "04";
   font-size: 3.5vw;
   font-weight: 100;
-  font-family: "silk serif";
+  font-family: "font2";
   top: 5%;
   left: -15%;
 }
@@ -872,7 +879,7 @@ body {
   font-weight: 100;
   font-size: 7vw;
   text-transform: uppercase;
-  font-family: "silk serif";
+  font-family: "font2";
   position: absolute;
   top: -8%;
   height: 20vh;
@@ -885,7 +892,7 @@ body {
   -webkit-text-stroke: 1px #fff;
   color: transparent;
   opacity: 0;
-  font-family: "silk serif";
+  font-family: "font2";
 }
 .underline {
   margin: 4vw 0 3vw 0;
@@ -1281,7 +1288,7 @@ body {
     font-size: 5vw;
   }
   #page4 #project h4 span {
-    font-family: silk serif;
+    font-family: font2;
   }
   #page4 #project:hover {
     transform: scale(0.9);
@@ -1324,7 +1331,7 @@ body {
     font-weight: 500;
   }
   #wrapper-left h1 {
-    font-family: silk serif;
+    font-family: font2;
     font-size: 6vw;
     font-weight: 100;
   }
@@ -1459,7 +1466,7 @@ body {
     -webkit-text-stroke: 1px var(--secondary);
     font-weight: 100;
     color: transparent;
-    font-family: "silk serif";
+    font-family: "font2";
     display: inline-block;
     margin-right: 2vw;
     margin-left: 2vw;
@@ -1485,7 +1492,7 @@ body {
     -webkit-text-stroke: 1px var(--secondary);
     font-weight: 100;
     color: transparent;
-    font-family: "silk serif";
+    font-family: "font2";
     display: inline-block;
     margin-right: 2vw;
     margin-left: 2vw;
@@ -1516,7 +1523,7 @@ body {
     content: "04";
     font-size: 5vw;
     font-weight: 100;
-    font-family: "silk serif";
+    font-family: "font2";
     top: -68%;
     left: 0%;
   }
